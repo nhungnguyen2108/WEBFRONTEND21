@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<style>
+		ul#menu{
+			padding-left: 0;
+			height: 50px;
+			background-color: green;
+		}
+		.item{
+			list-style: none;
+			display: inline-block;
+			position: relative;
+			padding-left: 20px;
+			padding-right: 20px;
+			line-height: 50px;
+		}
+		.item>a {
+			text-decoration: none;
+			color: #fff;
+		}
+		.item:hover{
+			background-color:  limegreen;
+		}
+		.submenu {
+			display: none;
+			position: absolute;
+			background-color: green;
+			padding-left: 0px;
+			left: 0;
+
+
+		}
+		.item:hover .submenu{
+			display: block;
+		}
+		.submenu li{
+			min-width: 180px;
+		}
+	</style>
+</head>
+<body>
+	<ul id="menu">
+		<li class="item">
+			<img width="75px" height="37px" alt="Tin tức bóng đá, thể thao, giải trí | Đọc báo tin tức 24h online mới nhất" src="https://cdn.24h.com.vn/images/2014/24h_logo_trang_chu_2015.png?1" class="initial loading" data-was-processed="true">
+		</li>
+		<li class="item">
+			<a href="#"><i class="fas fa-align-justify"></i> Xem danh mục</a>
+		</li>
+		<li class="item">
+			<a href="#">Tin tức quốc tê</a>
+		</li>
+		<li class="item">
+			<a href="#">Hi-tech</a>
+				<ul class="submenu">
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Dế sắp ra lò</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Tin tức công nghệ</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Mỹ nữ và công nghệ</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Laptop giá rẻ</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Dế giá rẻ</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Điện thoại</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Máy tính sách tay</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Máy nghe nhạc</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Máy ảnh và camera số</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Các sản phẩm khác</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Thế giới công nghệ</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Máy tính bảng</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Đánh giá sản phẩm</a>
+					</li>
+					<li class="item">
+						<a href=""><i class="fas fa-angle-right"></i> Điện tử gia dụng</a>
+					</li>
+
+				</ul>
+
+		</li>
+		<li class="item">
+			<a href="#">Showbiz</a>
+		</li>
+		<li class="item">
+			<a href="#">Giải trí</a>
+		</li>
+		<li class="item">
+			<a href="#">Sống trẻ</a>
+		</li>
+		<li class="item">
+			<a href="#">Thể thao</a>
+		</li>
+		<li class="item">
+			<a href="#">Sức khỏe</a>
+		</li>
+		<li class="item">
+			<a href="#">Video</a>
+		</li>
+		<li class="item">
+			<a href="#">Phái đẹp</a>
+		</li>
+		<li class="item">
+			<a href="#">Game</a>
+		</li>
+		<li class="item"><i class="fas fa-search"></i></li>
+	</ul>
+	
+</body>
+</html>

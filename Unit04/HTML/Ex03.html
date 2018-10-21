@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		ul#menu{
+			padding-left: 0;
+			height: 50px;
+			background-color: green;
+		}
+		.item{
+			list-style: none;
+			display: inline-block;
+			position: relative;
+			padding-left: 20px;
+			padding-right: 20px;
+			line-height: 50px;
+		}
+		.item>a {
+			text-decoration: none;
+			color: #fff;
+		}
+		.item:hover{
+			background-color: red;
+		}
+		.submenu {
+			display: none;
+			position: absolute;
+			background-color: green;
+			padding-left: 0px;
+			left: 0;
+
+
+		}
+		.item:hover .submenu{
+			display: block;
+		}
+		.submenu li{
+			min-width: 50px;
+		}
+	</style>
+</head>
+<body>
+	<ul id="menu">
+		<li class="item">
+			<a href="#">Home</a>
+		</li>
+		<li class="item">
+			<a href="#">Couse</a>
+				<ul class="submenu">
+					<li class="item">
+						<a href="">PHP</a>
+					</li>
+					<li class="item">
+						<a href="">Java</a>
+					</li>
+						<li class="item">
+						<a href="">HTML</a>
+					</li>
+				</ul>
+
+		</li>
+		<li class="item">
+			<a href="#">About</a>
+		</li>
+		<li class="item">
+			<a href="#">Contact</a>
+		</li>
+	</ul>
+	
+</body>
+</html>

@@ -3,63 +3,188 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<style type="text/css">
+	<style>
 	.item{
-		margin: 0px;
+		text-align: -webkit-center;
+		margin: 0 auto;
 		padding: 0px;
+		width: 80%;
 	}
 	.wrapper{
 		width: 800px;
 		margin: auto;
-		color: red
+		text-align: center;
+
 	}
 	.header{
 		width: 800px;
-		height: 100px;
-		color: pink;
 	}
 	.menu{
 		width: 800px;
-		height: 50px;
-		color: blue;
+		height: 40px;
+		background-color: gray;
 	}
 	.left{
-		width: 200px;
-		height: 400px;
+		width: 150px;
+		height: 800px;
 		float: left;
-		color: yellow;
 
 	}
 	.content{
-		width: 400px;
-		height:400px;
+		width: 500px;
+		height:800px;
+		background-color: white;
+		border: 0px solid;
 		float: left;
-		color: green;
 	}
 	.right{
-		width: 200px;
-		height: 400px;
+		width: 150px;
+		height: 800px;
 		float: left;
-		color: yellow;
 	}
 	.footer{
 		width: 800px;
-		height: 100px
+		height: 60px;
+		background-color: black;
+		clear: both;
+	}
+	.mn{
+		color: orange;
+		font-size: 20px;
+	}
+	.mn-left{
+		background-image: url(../image/menu_bar.gif);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		border: 1px solid;
+		width: 140px;
+		height: 24%
+		border: 8px solid;
+		text-indent: 11px;
+	}
+	.ct1{
+		border: 0px solid;
+		width: 490px;
+		background-color: coral;
+		text-align: center;
+		border-radius: 30px
+	}
+	.ct2{
+		background-image: url(../image/main_bar_left.gif);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.img{
+		width: 35%;
+		float: left;
+	}
+	.text{
+		width: 65%;
+		float: left;
+	}
+	.img1{
 
 	}
-	</style>
+	p{
+		font-size: 12px
+	}
+</style>
 </head>
 <body>
-	<div class="item"></div>
-		<div clas="wrapper"></div>
-		<div class="header"></div>
-		<div class="menu"></div>
-		<div class="left"></div>
-		<div class="content"></div>
-		<div class="right"></div>
-		<div class="footer"></div>
+	<div class="item">
+		<div clas="wrapper">
+		<div class="header">
+			<img src="../image/123.jpg" width="800px" height="400px">
+			<div class="menu">			
+				<table width="400px">
+					<tr>							
+						<td>
+							<u class="mn">Trang chủ</u>
+						</td>
+						<td>
+							<u class="mn">Giới thiệu</u>
+						</td>
+						<td>
+							<u class="mn">Tin tức</u>
+						</td>
+						<td>
+							<u class="mn">Liên hệ</u>
+						</td>
+						<td>
+							<u class="mn">Diễn đàn</u>
+						</td>					
+					</tr>						
+				</table>
+			</div>
 
+		</div>
+		<div class="giua">
+			<div class="left">
+				<div class="mn-left">
+					<div class="left1">Danh mục chính</div> 
+					<p></p>
+					<p> Gia công phần mềm</p>
+					<p> Đào tạo lập trình viên</p>
+					<p> Tư vấ doanh nghiệp</p>					
+					<p> Ảnh viện áo cưới</p>
+				</div>
+				<div class="mn-left">
+					<div class="left1">Bài viết đáng chú ý</div>				
+					<p>Hướng dẫn đăng kí học</p>
+					<p>Hình thức học online</p>
+					<p>Cài đặt sử dụng Skype</p>
+					<p>Cài đặt sử dụng teamview</p>
+				</div>
+				<div>					
+					<img src="../image/img1.gif">
+				</div>
+				<div>
+					<img src="../image/img2.gif">
+				</div>
+			</div>			
+			<div class="content">
+				<div class="ct1" style="border-radius: 30px"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolores quis reprehenderit minus exercitationem, ut, quia vitae placeat eaque quos neque voluptatum nostrum adipisci
+				</div>
+				<div class="ct2">
+					<p>CNTT</p>
+					<p style="color: orange"> Gia công phần mềm </p>
+					<div class = img>
+						<img src="../image/phanmem.gif">
+					</div>
+					<div class = text>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit aut illo dignissimos quasi, praesentium quaerat sapiente, necessitatibus, consequatur minus doloribus libero repellat id. 
+					</div>
+					
+				</div>
+				<div class="ct3"></div>
+				<div class="ct2"></div>
+				<div class="ct3"></div>
 
-	
+			</div>
+			<div class="right">
+				<div class="mn-left">
+					<div class="left1">Tư vẫn trực tiếp</div> 
+					<img src="../image/offline.gif">
+					<img src="../image/online.gif">
+
+				</div>
+				<div class="mn-left">
+					<div class="left1">Các bài viết mới</div>				
+					<p>Htaccess trong PHP</p>
+					<p>HTML 5 và SEO</p>
+					<p>Viết trang login & logout cho hệ thống</p>
+					<p>CSS nâng cao</p>
+					<p> Làm mịn da mặt với photoshop</p>
+				</div>
+				<div>					
+					<img src="../image/img3.gif">			
+					<img src="../image/img4.gif">
+					<img src="../image/img5.gif">
+				</div>
+			</div>	
+		</div>	
+		<div class="footer"></div>	
+	</div>
+</div>
 </body>
 </html>
