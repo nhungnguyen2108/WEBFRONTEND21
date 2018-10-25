@@ -1,0 +1,35 @@
+.menu{
+	background-color: black;
+	width: 40%;
+	height: 60px;
+}
+.item{
+	color: white;
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+	border-right: 1px solid white;
+	position: relative;
+	text-align: center;
+	left: 0px;
+}
+.item:hover{
+	background-color: red;
+	height: 15px;
+}
+.subitem{
+	display: none;
+	list-style: none;
+	position: absolute;
+	border-bottom: 1px solid white;
+
+}.item:hover .subitem{
+	display: block;
+	background-color: grey;
+	color:black;
+	margin-top: 30px;
+	padding-left: 0px;
+	padding-right: 60px;
+
+
+}
